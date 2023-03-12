@@ -1,0 +1,119 @@
+@import url("https://fonts.googleapis.com/css2?family=Exo+2:wght@300&family=News+Cycle&family=Poiret+One&family=Rubik+Iso&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Exo+2:wght@300&family=News+Cycle&family=Poiret+One&family=Rubik+Iso&family=Sono:wght@300&display=swap");
+body {
+  background-image: url("https://get.wallhere.com/photo/mountains-sunrise-digital-art-artwork-digital-birds-trees-forest-1879665.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+}
+.block {
+  margin: 0 auto;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: row;
+  flex-wrap: wrap;
+
+  width: 900px;
+  height: 500px;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: row;
+
+  width: 350px;
+  height: 200px;
+  padding: 10px;
+  border-radius: 10px;
+
+  box-shadow: 4px 4px 7px 2px rgba(0, 0, 0, 0.3);
+  background-color: #ffffff60;
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+}
+
+h1 {
+  font-family: "Rubik Iso";
+  color: rgb(73, 8, 103);
+  font-weight: 100;
+  font-size: 70px;
+  text-align: center;
+}
+#clockdiv {
+  font-family: sans-serif;
+  color: #fff;
+  font-weight: 100;
+  text-align: center;
+  font-size: 30px;
+}
+#clockdiv > div {
+  padding: 10px;
+  border-radius: 3px;
+  background: #00bf96;
+  color: black;
+
+  background-color: #ffffffcc;
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+}
+#clockdiv div > span {
+  padding: 15px;
+  border-radius: 3px;
+  /*   background: #00816a; */
+  display: inline-block;
+  font-family: "Sono", sans-serif;
+}
+.smalltext {
+  padding-top: 5px;
+  font-size: 16px;
+  font-family: "Sono", sans-serif;
+}
+.error {
+  border: 2px solid red;
+  background-color: #ffbaba;
+}
+.none {
+  display: none;
+}
+input {
+  width: 50px;
+  height: 40px;
+  border: 0px;
+  background: #a5ffeb;
+  border-bottom: 2px solid rgb(0, 110, 255);
+  background-color: #ffffff60;
+  box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.476),
+    -5px -10px 20px rgba(228, 228, 228, 0.5);
+}
+button {
+  cursor: pointer;
+  font-size: 18px;
+  width: 70px;
+  height: 40px;
+  border: 0px;
+  border-radius: 20%;
+  margin: 0 auto;
+  background: radial-gradient(
+    farthest-side ellipse at top left,
+    white,
+    #cdcdcd
+  );
+  box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.476),
+    -5px -10px 20px rgba(228, 228, 228, 0.5);
+  font-family: "Sono", sans-serif;
+}
+button:active {
+  color: white;
+  background: radial-gradient(
+    farthest-side ellipse at bottom right,
+    rgb(184, 184, 184),
+    #4b4b4b
+  );
+}
+.daysDiv {
+  display: none;
+}

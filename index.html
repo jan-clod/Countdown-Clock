@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css" type="text/css" />
+    <title>Document</title>
+</head>
+<body>
+    <h1>Countdown Clock</h1>
+<div class='block'>
+    <div class='container'>
+        <div>
+            <input id="hh" min="0" max="24" class='input' type="number" placeholder="hh"/>:
+            <input id="mm" min="0" max="60" class='input' type="number" placeholder="mm"/>:
+            <input id="ss" min="0" max="60" class='input' type="number" placeholder="ss"/>
+        
+        </div>
+        <div>
+            <button class='count' disabled="true">count</button>
+            <button class='stop'>stop</button>
+        </div>
+
+    
+    </div>
+
+
+    <div id="clockdiv" class='container'>
+      <div class="daysDiv" >
+        <span class="days"></span>
+        <div class="smalltext">Days</div>
+      </div>
+      <div>
+        <span class="hours"></span>
+        <div class="smalltext">Hours</div>
+      </div>
+      <div>
+        <span class="minutes"></span>
+        <div class="smalltext">Minutes</div>
+      </div>
+      <div>
+        <span class="seconds"></span>
+        <div class="smalltext">Seconds</div>
+      </div>
+    </div>
+</div>
+
+    <script src="js2.js"></script>
+
+</body>
+</html>
