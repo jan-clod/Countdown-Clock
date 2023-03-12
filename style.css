@@ -1,5 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Exo+2:wght@300&family=News+Cycle&family=Poiret+One&family=Rubik+Iso&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Exo+2:wght@300&family=News+Cycle&family=Poiret+One&family=Rubik+Iso&family=Sono:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Exo+2:wght@300&family=News+Cycle&family=Poiret+One&family=Rubik+Iso&family=Sono:wght@300&family=Special+Elite&display=swap");
+
 body {
   background-image: url("https://get.wallhere.com/photo/mountains-sunrise-digital-art-artwork-digital-birds-trees-forest-1879665.jpg");
   background-repeat: no-repeat;
@@ -43,6 +45,11 @@ h1 {
   font-size: 70px;
   text-align: center;
 }
+h2 {
+  text-align: center;
+  font-family: "Special Elite", cursive;
+  color: rgb(73, 8, 103);
+}
 #clockdiv {
   font-family: sans-serif;
   color: #fff;
@@ -83,9 +90,8 @@ input {
   width: 50px;
   height: 40px;
   border: 0px;
-  background: #a5ffeb;
   border-bottom: 2px solid rgb(0, 110, 255);
-  background-color: #ffffff60;
+  background-color: #ffffffcd;
   box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.476),
     -5px -10px 20px rgba(228, 228, 228, 0.5);
 }
